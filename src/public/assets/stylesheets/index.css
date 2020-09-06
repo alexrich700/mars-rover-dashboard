@@ -1,0 +1,57 @@
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  min-height: 100vh;
+  background-color: #13002e;
+  background-image: url("/assets/images/black-hole.jpg");
+  background-position: center;
+}
+
+.tab-container {
+  width: 80vw;
+  max-width: 1080px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.tablink {
+  background-color: #fcfbfe;
+  color: #0c164f;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.rover-image-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.rover-images {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 20px;
+}
+
+.content strong{
+  color: #f7d967;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+}
+
